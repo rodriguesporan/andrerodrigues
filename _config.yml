@@ -1,0 +1,3 @@
+markedown: redcarpet
+baseurl: /andrerodrigues
+exclude: ['README.md']
