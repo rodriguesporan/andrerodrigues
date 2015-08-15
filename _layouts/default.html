@@ -1,21 +1,25 @@
 <!DOCTYPE html>
-<html lang="en-ca">
-<head>
-	<meta charset="utf-8">
-	<title>Andre Rodrigues</title>
-	<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/common.css">
-</head>
-<body>
-<header>
-	<h1>André Rodrigues</h1>
-	{% include nav.html navclass='nav-top' %}
-</header>
+<html>
 
-{{content}}
+  {% include head.html %}
 
-<footer>
-	{% include nav.html navclass='nav-bottom' %}
-	<p>&copy; 2015</p>
-</footer>
-</body>
+  <body>
+
+    {% include header.html %}
+
+    <!-- content start -->
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    <!-- content end -->
+
+    {% include footer.html %}
+    {% include javascripts.html %}
+
+  </body>
+
 </html>
