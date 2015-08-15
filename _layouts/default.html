@@ -3,20 +3,19 @@
 <head>
 	<meta charset="utf-8">
 	<title>Andre Rodrigues</title>
+	<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/common.css">
 </head>
 <body>
-
 <header>
 	<h1>André Rodrigues</h1>
-	<nav>
-		<ul>
-			<li><a href="{{site.baseurl}}/index.html">Home</a></li>
-			<li><a href="{{site.baseurl}}/news.html">News</a></li>
-		</ul>
-	</nav>
+	{% include nav.html navclass='nav-top' %}
 </header>
 
 {{content}}
 
+<footer>
+	{% include nav.html navclass='nav-bottom' %}
+	<p>&copy; 2015</p>
+</footer>
 </body>
 </html>
