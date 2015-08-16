@@ -9,13 +9,13 @@
       <article class="post">
         {% if page.image %}
         <div class="article-image">
-          <div class="post-image-image" style="background-image: url({% if page.image %}{{ site.baseurl }}{{ page.image }}{% endif %})">
+          <div class="post-image-image" style="background-image: url({% if page.image %}{{ page.image }}{% endif %})">
             Article Image
           </div>
           <div class="post-meta">
             <h1 class="post-title">{{ page.title }}</h1>
             <div class="cf post-meta-text">
-              <div class="author-image" style="background-image: url({{ site.baseurl }}{{ site.author_image }})">Blog Logo</div>
+              <div class="author-image" style="background-image: url({{ site.author_image }})">Blog Logo</div>
               <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">{{ site.author }}</h4>
               on
               <time datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date_to_string }}</time>
@@ -31,7 +31,7 @@
           <div class="post-meta">
             <h1 class="post-title">{{ page.title }}</h1>
             <div class="cf post-meta-text">
-              <div class="author-image" style="background-image: url({{ site.baseurl }}{{ site.author_image }})">Blog Logo</div>
+              <div class="author-image" style="background-image: url({{ site.author_image }})">Blog Logo</div>
               <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">{{ page.author }}</h4>
               on
               <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
@@ -66,7 +66,7 @@
           <div class="isLeft">
             <h5 class="index-headline featured"><span>Written by</span></h5>
             <section class="author">
-              <div class="author-image" style="background-image: url({{ site.baseurl }}{{site.author_image}})">Blog Logo</div>
+              <div class="author-image" style="background-image: url({{site.author_image}})">Blog Logo</div>
               <h4>{{ site.author }}</h4>
               <p class="bio">{{author.bio}}</p>
               <hr>
@@ -78,7 +78,7 @@
             <h5 class="index-headline featured"><span>Supported by</span></h5>
             <footer class="site-footer">
               <section class="poweredby">Proudly published with <a href="http://jekyllrb.com"> Jekyll</a></section>
-              <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> You should subscribe to my feed.</span></a>
+              <a class="subscribe" href="{{ "/feed.xml" }}"> <span class="tooltip"> <i class="fa fa-rss"></i> You should subscribe to my feed.</span></a>
               <div class="inner">
                 <section class="copyright">All content copyright <a href="{{@blog.url}}/">{{site.author}}</a> &copy; {{ site.time | date: '%Y' }}<br>All rights reserved.</section>
               </div>
@@ -88,13 +88,13 @@
       </article>
     </main>
     <div class="bottom-closer">
-      <div class="background-closer-image" {%if site.cover %} style="background-image: url({{ site.baseurl }}{{ site.cover }})"{% endif %}>
+      <div class="background-closer-image" {%if site.cover %} style="background-image: url({{ site.cover }})"{% endif %}>
         Image
       </div>
       <div class="inner">
         <h1 class="blog-title">{{ site.title }}</h1>
         <h2 class="blog-description">{{ site.description }}</h2>
-        <a href="{{site.baseurl}}/" class="btn">Back to Overview</a>
+        <a href="/" class="btn">Back to Overview</a>
       </div>
     </div>
     {% include javascripts.html %}

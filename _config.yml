@@ -1,6 +1,5 @@
 # Build settings
 # markdown: redcarpet
-baseurl: /andrerodrigues
 exclude: ['README.md']
 highlighter: pygments
 gems:
