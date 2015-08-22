@@ -1,5 +1,30 @@
-<!-- header start -->
-
-<a href="{{ site.url }}" class="logo-readium"><span class="logo" style="background-image: url({{ site.logo }})"></span></a>
-
-<!-- header end -->
+<header>
+	<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="navbar-brand">
+					<a href=""><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
+					<a href=""><span class="glyphicon glyphicon-star" aria-hidden="true"></span></a>
+					<a href=""><span class="glyphicon glyphicon-sunglasses" aria-hidden="true"></span></a>
+					<a href=""><span class="glyphicon glyphicon-tree-deciduous" aria-hidden="true"></span></a>
+				</div>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="{% if page.url == '/index.html' %}active{% endif %}"><a href="/index.html">INICIO</a></li>
+					<li class="{% if page.url == '/about.html' %}active{% endif %}"><a href="/about.html">SOBRE</a></li>
+					<li><a href="">BLOG</a></li>
+					<li class="{% if page.url == '/projects.html' %}active{% endif %}"><a href="/projects.html">PROJETOS</a></li>
+					<li class="{% if page.url == '/services.html' %}active{% endif %}"><a href="/services.html">SERVIÇOS</a></li>
+					<li class="{% if page.url == '/contact.html' %}active{% endif %}"><a href="/contact.html">CONTATO</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>

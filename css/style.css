@@ -1,0 +1,123 @@
+::selection {
+	background: #F7C723; /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+	background: #F7C723; /* Gecko Browsers */
+}
+
+body {
+	font-family: 'Open Sans', serif;
+	font-size: 1.5em;
+	line-height: 1.7em;
+}
+
+.container-fluid {
+	padding: 0;
+	min-height: 66vh;
+}
+
+header {
+	margin-bottom: 70px;
+}
+
+footer {
+	margin: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #202020;
+	color: #FFF;
+}
+
+div.item1 {
+	margin: auto;
+	padding: 20px;
+	max-width: 500px;
+}
+
+div.item1 div .thumbnail {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	max-width: 270px;
+	min-height: 400px;
+}
+
+div.item1 div ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+div.item2 {
+	margin: auto;
+	padding: 20px;
+	padding-top: 460px;
+	max-width: 500px;
+}
+
+div.item2 p {
+	padding: 15px;
+}
+
+div.li-servs {
+	margin: auto;
+	padding: 20px;
+	max-width: 500px;
+}
+
+div.li-servs img {
+	width: 50px;
+}
+
+div.item4 {
+	margin: auto;
+	padding: 20px;
+	max-width: 700px;
+}
+
+div.item4 img {
+	width: 100%;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+	div.item1 {
+		max-width: 700px;
+	}
+	div.item1 div .thumbnail {
+		min-height: 450px;
+	}
+	div.item2 {
+		max-width: 700px;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1200px) {
+	div.item1 {
+		max-width: 900px;
+	}
+	div.item1 div .thumbnail {
+		min-height: 380px;
+	}
+	div.item2 {
+		max-width: 900px;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	div.item1 {
+		max-width: 1000px;
+	}
+	div.item1 div .thumbnail {
+		min-height: 380px;
+	}
+	div.item2 {
+		max-width: 1000px;
+	}
+}
