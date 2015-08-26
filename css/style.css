@@ -18,15 +18,46 @@ body {
 }
 
 header {
-	margin-bottom: 70px;
+	height: 100vh;
+	background-color: #202020;
+	color: #FFF;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	min-height: 400px;
+}
+
+div.cover {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+div.cover .title {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+div.cover .subtitle {
+	display: inline-block;
+}
+
+div.main-cover .title {
+	font-size: 3em;
+}
+
+div.main-cover .subtitle {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+div.cover img {
+	width: 100px;
 }
 
 footer {
-	margin: auto;
-	padding-left: 15px;
-	padding-right: 15px;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	margin-bottom: -12px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 	background-color: #202020;
 	color: #FFF;
 }
@@ -84,7 +115,24 @@ div.item4 img {
 }
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 768px) {
+	div.cover .title {
+		font-size: 4em;
+		font-weight: bold;
+	}
+	div.cover .subtitle {
+		display: inline-block;
+	}
+	div.main-cover .title {
+		font-size: 6em;
+	}
+	div.main-cover .subtitle {
+		font-size: 2em;
+		font-weight: bold;
+	}
+	div.cover img {
+		width: 150px;
+	}
 	div.item1 {
 		max-width: 700px;
 	}
@@ -97,7 +145,7 @@ div.item4 img {
 }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 992px) {
 	div.item1 {
 		max-width: 900px;
 	}

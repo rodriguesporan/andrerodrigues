@@ -1,5 +1,5 @@
 <header>
-	<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+	<nav class="navbar navbar-fixed-top navbar-inverse">
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -19,7 +19,7 @@
 				<ul class="nav navbar-nav navbar-right">
 					<li class="{% if page.url == '/index.html' %}active{% endif %}"><a href="/index.html">INICIO</a></li>
 					<li class="{% if page.url == '/about.html' %}active{% endif %}"><a href="/about.html">SOBRE</a></li>
-					<li><a href="">BLOG</a></li>
+					<li class="{% if page.url == '/posts.html' %}active{% endif %}"><a href="/posts.html">POSTS</a></li>
 					<li class="{% if page.url == '/projects.html' %}active{% endif %}"><a href="/projects.html">PROJETOS</a></li>
 					<li class="{% if page.url == '/services.html' %}active{% endif %}"><a href="/services.html">SERVIÇOS</a></li>
 					<li class="{% if page.url == '/contact.html' %}active{% endif %}"><a href="/contact.html">CONTATO</a></li>
@@ -27,4 +27,16 @@
 			</div>
 		</div>
 	</nav>
+	<div class="text-center cover {% if page.url == '/index.html' %}main-cover{% endif %}">
+		<h1 class="title">{{page.title}}</h1>
+		<br>
+		<h3 class="subtitle">{{page.subtitle}}</h3>
+		{% if page.url == '/contact.html' %}
+			<h3 class="subtitle" style="margin-left: 15px;">;)</h3>
+		{% endif %}
+		{% if page.url == '/index.html' %}
+			<br><br>
+			<img src="http://dummyimage.com/500x500/000/fff" alt="" class="img-circle">
+		{% endif %}
+	</div>
 </header>
