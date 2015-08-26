@@ -1,3 +1,4 @@
 markdown: redcarpet
-url: 'http://localhost:4000'
+url: 'http://andrerodrigues.work'
 exclude: [README.md]
+permalink: pretty
