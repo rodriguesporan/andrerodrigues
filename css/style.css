@@ -52,6 +52,25 @@ div.cover img {
 	min-width: 80px;
 }
 
+.over {
+	position: absolute;
+	height: 100vh;
+}
+
+.oi {
+	color: #FFF;
+	position: absolute;
+	z-index: 3;
+	bottom: 0;
+	margin-left: 44.4vw;
+	width: 10vw;
+	height: 90px;
+}
+
+.glyphicon.glyphicon-chevron-down {
+	font-size: 50px;
+}
+
 footer {
 	margin-bottom: -12px;
 	padding-top: 10px;
