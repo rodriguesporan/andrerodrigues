@@ -1,2 +1,3 @@
 markdown: redcarpet
+url: 'http://localhost:4000'
 exclude: [README.md]

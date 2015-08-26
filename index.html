@@ -4,6 +4,8 @@ title: André Rodrigues
 subtitle: Desenvolvedor Front-End e Back-End
 ---
 
-				<p>
-					Trabalho com o desenvolvimento de projetos que visam a qualidade e tecnologia, prezando a satisfação e tendo uma relação honesta e aberta com o cliente. Desenvolvo trabalhos de vários tipos, desde simples sites com html e css até sites administrativos, lojas virtuais e sistemas web que garantam a segurança do cliente. Ao lado, seguem todas as tecnologias que utilizo em meus trabalhos.
-				</p>
+{% for post in site.posts %}
+	<a href="{{post.url}}"><h1>{{post.title}}</h1></a>
+	<p>{{post.meta}}</p>
+	<br>
+{% endfor %}
