@@ -24,7 +24,7 @@ header {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	min-height: 400px;
+	min-height: 300px;
 }
 
 div.cover {
@@ -42,16 +42,17 @@ div.cover .subtitle {
 }
 
 div.main-cover .title {
-	font-size: 3em;
+	font-size: 2em;
 }
 
 div.main-cover .subtitle {
-	font-size: 1.5em;
+	font-size: 1em;
 	font-weight: bold;
 }
 
 div.cover img {
-	width: 100px;
+	margin-top: 15px;
+	width: 80px;
 }
 
 footer {
