@@ -1,1 +1,2 @@
-exclude: ['README.md']
+markdown: redcarpet
+exclude: [README.md]
