@@ -41,10 +41,6 @@ div.cover .subtitle {
 	display: inline-block;
 }
 
-div.main-cover .title {
-	font-size: 2em;
-}
-
 div.main-cover .subtitle {
 	font-size: 1em;
 	font-weight: bold;
@@ -52,13 +48,14 @@ div.main-cover .subtitle {
 
 div.cover img {
 	margin-top: 15px;
-	width: 80px;
+	width: 25vh;
+	min-width: 80px;
 }
 
 footer {
 	margin-bottom: -12px;
-	padding-top: 25px;
-	padding-bottom: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	background-color: #202020;
 	color: #FFF;
 }
@@ -117,6 +114,9 @@ div.item4 img {
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+	header {
+		min-height: 450px;
+	}
 	div.cover .title {
 		font-size: 4em;
 		font-weight: bold;
