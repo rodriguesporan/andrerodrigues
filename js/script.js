@@ -18,35 +18,35 @@ $(function() {
 	$('#capa-ht').magnificPopup({
 		items: [
 			{
-				src: 'assets/images/ht1.png',
+				src: '../assets/images/ht1.png',
 				title: 'Hotsite'
 			},
 			{
-				src: 'assets/images/ht2.png',
+				src: '../assets/images/ht2.png',
 				title: 'Hotsite'
 			},
 			{
-				src: 'assets/images/ht3.png',
+				src: '../assets/images/ht3.png',
 				title: 'Hotsite'
 			},
 			{
-				src: 'assets/images/ht4.png',
+				src: '../assets/images/ht4.png',
 				title: 'Hotsite'
 			},
 			{
-				src: 'assets/images/ht5.jpg',
+				src: '../assets/images/ht5.jpg',
 				title: 'Hotsite'
 			},
 			{
-				src: 'assets/images/ht6.jpg',
+				src: '../assets/images/ht6.jpg',
 				title: 'Hotsite'
 			},
 			{
-				src: 'assets/images/ht7.jpg',
+				src: '../assets/images/ht7.jpg',
 				title: 'Hotsite'
 			},
 			{
-				src: 'assets/images/ht8.jpg',
+				src: '../assets/images/ht8.jpg',
 				title: 'Hotsite'
 			}
 		],
@@ -59,35 +59,35 @@ $(function() {
 	$('#capa-bm').magnificPopup({
 		items: [
 			{
-				src: 'assets/images/bm1.png',
+				src: '../assets/images/bm1.png',
 				title: 'Bomercado'
 			},
 			{
-				src: 'assets/images/bm2.png',
+				src: '../assets/images/bm2.png',
 				title: 'Bomercado'
 			},
 			{
-				src: 'assets/images/bm3.png',
+				src: '../assets/images/bm3.png',
 				title: 'Bomercado'
 			},
 			{
-				src: 'assets/images/bm4.png',
+				src: '../assets/images/bm4.png',
 				title: 'Bomercado'
 			},
 			{
-				src: 'assets/images/bm5.png',
+				src: '../assets/images/bm5.png',
 				title: 'Bomercado'
 			},
 			{
-				src: 'assets/images/bm6.png',
+				src: '../assets/images/bm6.png',
 				title: 'Bomercado'
 			},
 			{
-				src: 'assets/images/bm7.png',
+				src: '../assets/images/bm7.png',
 				title: 'Bomercado'
 			},
 			{
-				src: 'assets/images/bm8.png',
+				src: '../assets/images/bm8.png',
 				title: 'Bomercado'
 			}
 		],
@@ -100,23 +100,23 @@ $(function() {
 	$('#capa-rc').magnificPopup({
 		items: [
 			{
-				src: 'assets/images/rc1.png',
+				src: '../assets/images/rc1.png',
 				title: 'Rubens Center'
 			},
 			{
-				src: 'assets/images/rc2.png',
+				src: '../assets/images/rc2.png',
 				title: 'Rubens Center'
 			},
 			{
-				src: 'assets/images/rc3.png',
+				src: '../assets/images/rc3.png',
 				title: 'Rubens Center'
 			},
 			{
-				src: 'assets/images/rc4.png',
+				src: '../assets/images/rc4.png',
 				title: 'Rubens Center'
 			},
 			{
-				src: 'assets/images/rc5.png',
+				src: '../assets/images/rc5.png',
 				title: 'Rubens Center'
 			}
 		],
