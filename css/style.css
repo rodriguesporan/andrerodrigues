@@ -8,7 +8,7 @@
 
 body {
 	font-family: 'Open Sans', serif;
-	font-size: 1.5em;
+	font-size: 1.7em;
 	line-height: 1.7em;
 }
 
@@ -104,8 +104,9 @@ footer {
 	min-width: 80px;
 }
 
-.projects img {
+.projects img.capa {
 	width: 40vh;
+	cursor: pointer;
 }
 
 /* Small devices (tablets, 768px and up) */
