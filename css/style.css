@@ -54,8 +54,11 @@ header {
 
 .cover img {
 	margin-top: 15px;
-	width: 25vh;
+	width: 22vh;
 	min-width: 80px;
+	border-color: #151515;
+	border-style: solid;
+	border-width: thick;
 }
 
 .over {
@@ -129,7 +132,7 @@ footer {
 		font-weight: bold;
 	}
 	.cover img {
-		width: 150px;
+		width: 130px;
 	}
 	.li-servs img {
 		width: 100px;
