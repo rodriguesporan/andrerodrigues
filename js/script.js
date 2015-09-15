@@ -15,6 +15,27 @@ $(function() {
 		}
 	});
 
+	$('#capa-gmn').magnificPopup({
+		items: [
+			{
+				src: '../assets/images/gmn1.png',
+				title: 'Adivinhe Meu Número'
+			},
+			{
+				src: '../assets/images/gmn2.png',
+				title: 'Adivinhe Meu Número'
+			},
+			{
+				src: '../assets/images/gmn3.png',
+				title: 'Adivinhe Meu Número'
+			}
+		],
+		gallery: {
+			enabled: true
+		},
+		type: 'image'
+	});
+
 	$('#capa-ht').magnificPopup({
 		items: [
 			{
