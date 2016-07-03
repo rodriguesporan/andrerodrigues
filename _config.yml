@@ -1,4 +1,4 @@
-markdown: redcarpet
+kramdown: redcarpet
 url: 'http://andrerodrigues.work'
 exclude: [README.md]
 permalink: pretty
